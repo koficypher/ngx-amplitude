@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LibService } from 'quickstart-lib';
+import { NgxAmplitudeService } from 'quickstart-lib';
 
 @Component({
   selector: 'demo-app',
@@ -7,7 +7,7 @@ import { LibService } from 'quickstart-lib';
 })
 export class AppComponent {
   meaning: number;
-  constructor(libService: LibService) {
+  constructor(libService: NgxAmplitudeService) {
     this.meaning = libService.getMeaning();
   }
 }

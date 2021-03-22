@@ -1,3 +1,4 @@
-export { LibComponent } from './src/component/lib.component';
-export { LibService } from './src/service/lib.service';
-export { LibModule } from './src/module';
+export { NgxAmplitudeComponent } from './src/component/ngx-amplitude.component';
+export { NgxAmplitudeService } from './src/service/ngx-amplitude.service';
+export { NgxAmplitudeModule } from './src/ngx-amplitude.module';
+export { NgxAmpSong, NgxAmpConfig} from './src/ngx-amplitude.models';
