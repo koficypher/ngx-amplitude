@@ -1,7 +1,7 @@
 {
-  "name": "quickstart-lib",
+  "name": "ngx-amplitude",
   "version": "1.0.0",
-  "description": "Library QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "angular wrapper for amplitudejs audio player library",
   "main": "./bundles/quickstart-lib.umd.js",
   "module": "./quickstart-lib.es5.js",
   "es2015": "./quickstart-lib.js",
